@@ -84,6 +84,10 @@
         <dataCategoryGroup>Topic</dataCategoryGroup>
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
+    <classAccesses>
+        <apexClass>MySampleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -174,6 +178,11 @@
         <editable>false</editable>
         <field>Account.Site</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Testok__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2607,6 +2616,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test__c.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WorkOrder.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3092,6 +3106,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test__c-Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>

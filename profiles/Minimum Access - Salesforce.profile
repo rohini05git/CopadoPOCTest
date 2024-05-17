@@ -80,6 +80,10 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>MySampleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -170,6 +174,11 @@
         <editable>false</editable>
         <field>Account.Site</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Testok__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2603,6 +2612,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test__c.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WorkOrder.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2955,6 +2969,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test__c-Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
