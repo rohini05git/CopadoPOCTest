@@ -84,6 +84,10 @@
         <dataCategoryGroup>Topic</dataCategoryGroup>
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
+    <classAccesses>
+        <apexClass>MySampleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
