@@ -9,6 +9,10 @@
         <value>Tests</value>
     </caseValues>
     <fields>
+        <label><!-- TestRollback --></label>
+        <name>TestRollback__c</name>
+    </fields>
+    <fields>
         <label><!-- Test --></label>
         <name>Test__c</name>
     </fields>
