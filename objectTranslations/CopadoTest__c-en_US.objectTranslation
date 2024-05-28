@@ -6,7 +6,7 @@
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>CopadoTest</value>
+        <value>CopadoTests</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
