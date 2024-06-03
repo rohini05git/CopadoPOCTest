@@ -3375,10 +3375,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-FlowRecord</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-FlowRecordVersion</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
